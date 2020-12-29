@@ -629,7 +629,7 @@ body {
 }
 
 .footer__social-title {
-  display: block;
+  display: inline-block;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -690,6 +690,109 @@ body {
 
 .footer-logo-color--white {
   color: var(--primary-footer-logo-color);
+}
+
+.subscribe {
+  margin-left: 93px;
+}
+
+.subscribe__title {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  color: var(--secondary-fc-white);
+  text-transform: uppercase;
+}
+
+.subscribe__inner {
+  display: inline-block;
+}
+
+.subscribe__label {
+  display: inline-block;
+}
+
+.subscribe__input {
+  min-width: 358px;
+  padding: 15px 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe__input--placeholder::-webkit-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe__input--placeholder:-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe__input--placeholder::-ms-input-placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe__input--placeholder::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe__btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 13px 29px;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--fc-hero-button);
+  background: var(--bc-hero-button);
+}
+
+.subscribe__btn:active {
+  position: relative;
+  top: 2px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.subscribe__btn-icon {
+  margin-left: 10px;
 }
 
 /*===Modal Style===*/
