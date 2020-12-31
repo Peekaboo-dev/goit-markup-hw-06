@@ -58,7 +58,7 @@
               Создание сайтов, продвижение и обслуживание.
             </h1>
             <p class="hero__text">Эффективные решения для вашего бизнеса</p>
-            <button type="button" class="hero__btn" data-modal-open>
+            <button type="button" class="modal-btn" data-modal-open>
               Заказать услугу
             </button>
           </div>
@@ -534,6 +534,26 @@
               ></textarea>
             </div>
           </label>
+          <label class="modal__label modal__checkbox">
+            <input
+              class="modal__checkbox-check visually-hidden"
+              type="checkbox"
+              name="confirm"
+              id="confirm"
+            />
+            <span class="modal__checkbox-icon"></span>
+            <p class="modal__checkbox-text">
+              Соглашаюсь с рассылкой и принимаю
+            </p>
+            <a href="#" class="modal__checkbox-link">Условия договора</a>
+          </label>
+          <button
+            type="submit"
+            class="modal-btn modal-btn--inner"
+            data-modal-open
+          >
+            Отправить
+          </button>
         </form>
         <button type="button" data-modal-close class="btn-modal">
           <svg class="icon-modal-close" width="11" height="11">
