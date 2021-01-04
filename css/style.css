@@ -704,7 +704,7 @@ body {
 }
 
 .subscribe {
-  margin-left: 93px;
+  margin-left: auto;
 }
 
 .subscribe__title {
@@ -719,14 +719,13 @@ body {
 }
 
 .subscribe__inner {
-  display: inline-block;
-}
-
-.subscribe__label {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .subscribe__input {
+  margin-left: auto;
   min-width: 358px;
   padding: 15px 16px;
   background-color: transparent;
