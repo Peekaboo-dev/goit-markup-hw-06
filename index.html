@@ -458,20 +458,26 @@
         </div>
         <form action="#" class="subscribe">
           <b class="subscribe__title">Подпишитесь на рассылку</b>
-          <label class="subscribe__label">
-            <input
-              type="email"
-              name="mail"
-              id="mail"
-              class="subscribe__input subscribe__input--placeholder"
-              placeholder="E-mail"
-            />
-          </label>
-          <button type="submit" class="subscribe__btn">
-            Подписаться<svg class="subscribe__btn-icon" width="24" height="24">
-              <use xlink:href="./img/sprite.svg#icon-send"></use>
-            </svg>
-          </button>
+          <div class="subscribe__inner">
+            <label>
+              <input
+                type="email"
+                name="mail"
+                id="mail"
+                class="subscribe__input subscribe__input--placeholder"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="subscribe__btn">
+              Подписаться<svg
+                class="subscribe__btn-icon"
+                width="24"
+                height="24"
+              >
+                <use xlink:href="./img/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
         </form>
       </div>
     </footer>
